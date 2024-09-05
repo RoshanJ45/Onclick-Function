@@ -1,0 +1,28 @@
+.button {
+            display: block;
+            margin: 50px auto;
+            padding: 8px 32px;
+            background-color: #EE9E2D;
+            border-radius: 4px;
+            font-size: 16px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            transition: .1s all linear;
+            font-family: sans-serif;
+            &:hover {
+                background-color: darken(#EE9E2D, 10%);
+            }
+        }
+        .alert {
+            display: none;
+            margin: 0 auto;
+            width: fit-content;
+            text-align: center;
+            padding: 32px 64px;
+            background-color: #FBE8E4;
+            border: 1px solid #DC2500;
+            font-family: sans-serif;
+            border-radius: 8px;
+            color: #DC2500;
+        }
